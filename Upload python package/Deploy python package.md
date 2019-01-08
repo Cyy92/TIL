@@ -188,15 +188,15 @@ __5. Build__
 
   ```bash
   <dist>
-    ├── dcfgrpc-0.1.0-py2-none-any.whl
+    ├── calcpkg-0.1.0-py2-none-any.whl
   ```
 
 - Python 3.x ~ 
 
   ```bash
   <dist>
-    ├── dcfgrpc-0.1.0-py3-none-any.whl
-    ├── dcfgrpc-0.1.0.tar.gz
+    ├── calcpkg-0.1.0-py3-none-any.whl
+    ├── calcpkg-0.1.0.tar.gz
   ```
 
 
@@ -238,7 +238,7 @@ Enter your password:
 위의 명령어 실행 후, 다음과 같은 화면이 표시되면 성공적으로 업로드를 마친 것이다. 
 
 ```bash
-Uploading dcfgrpc-0.1.0-py2-none-any.whl
+Uploading calcpkg-0.1.0-py2-none-any.whl
 100%|                                             | 7.32k/7.32k [00:05<00:00, 1.30kB/s]
 ```
 
@@ -246,7 +246,7 @@ Uploading dcfgrpc-0.1.0-py2-none-any.whl
 
 ## Package instructions
 
-package 업로드까지 완료되었으면, 업로드한 package를 설치하여 사용할 수 있고  이를 통해 DCF 클라이언트는 게이트웨이 서버와 gRPC 통신을 할 수 있다. 
+package 업로드까지 완료되었으면, 업로드한 package를 설치하여 사용할 수 있고  이를 통해 사칙연산을 진행할 수 있다. 
 
 
 
@@ -259,9 +259,9 @@ package 업로드까지 완료되었으면, 업로드한 package를 설치하여
 
 
 
-- Create client
+- Create main program
 
-  Package의 설치까지 완료되면, 이 package를 import하여 DCF Function을 호출하면 된다. 다음은 DCF 클라이언트 코드에 대한 예시이며 해당 클라이언트 파일의 이름은 `client.py`이다. 
+  Package의 설치까지 완료되면, 이 package를 import하여 main program을 작성하면 된다.
 
   ```python
   from calcpkg.calculator import calculator
@@ -277,12 +277,12 @@ package 업로드까지 완료되었으면, 업로드한 package를 설치하여
       print("Div result = %d" % divresult)
   ```
 
-  클라이언트 파일 작성 후 실행하면, 다음과 같은 결과를 얻을 수 있다.
+  main 파일 작성 후 실행하면, 다음과 같은 결과를 얻을 수 있다.
 
   - Python 2.7
 
     ```bash
-    python client.py
+    python test.py
     
     -> Add result = 21
        Sub result = 14
@@ -293,7 +293,7 @@ package 업로드까지 완료되었으면, 업로드한 package를 설치하여
   - Python 3.x ~
 
     ```bash
-    python3 client.py
+    python3 test.py
     
     -> Add result = 21
        Sub result = 14
