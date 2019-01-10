@@ -11,7 +11,7 @@
 - Python package로 만들기 위한 프로젝트 폴더는 다음과 같은 구조로 구성된다. 
 
   ```bash
-  <dcfgrpc> 
+  <calcpkg> 
     ├── __init__.py
     ├── calculator.py
   LICENSE
@@ -94,6 +94,9 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Cyy92",
+    install_requires=[
+        'module_name>=version',
+    ]
     classifiers=[
         "License :: OSI Approved :: MIT License",
     ],
@@ -104,17 +107,18 @@ setup(
 
   다음은 setup 모듈에 포함되는 대표적인 metadata에 대한 목록이다. 
 
-  |      Field      |            Description             |
-  | :-------------: | :--------------------------------: |
-  |      name       |            package 이름            |
-  |     version     |         package 배포 버전          |
-  |     author      |           package 작성자           |
-  |  author_email   |        package 작성자 email        |
-  |   description   |        package에 대한 설명         |
-  |    packages     | 프로젝트에 포함되는 package 리스트 |
-  |     license     |         package의 라이센스         |
-  | python_requires |   실행 환경에 필요한 python 버전   |
-  |       url       |    package를 대표하는 웹 페이지    |
+  |      Field       |               Description                |
+  | :--------------: | :--------------------------------------: |
+  |       name       |               package 이름               |
+  |     version      |            package 배포 버전             |
+  |      author      |              package 작성자              |
+  |   author_email   |           package 작성자 email           |
+  |   description    |           package에 대한 설명            |
+  |     packages     |    프로젝트에 포함되는 package 리스트    |
+  |     license      |            package의 라이센스            |
+  | python_requires  |      실행 환경에 필요한 python 버전      |
+  |       url        |       package를 대표하는 웹 페이지       |
+  | install_requires | 자동으로 설치되는 python dependency 목록 |
 
 
 __2. Create LICENSE__
@@ -253,10 +257,17 @@ package 업로드까지 완료되었으면, 업로드한 package를 설치하여
 
 - Install package
 
-  ```bash
-  pip install calcpkg
-  ```
+  - Python 2.7
 
+    ```bash
+    pip install calcpkg
+    ```
+
+  - Python 3.x ~
+
+    ```bash
+    python3 -m pip install calcpkg
+    ```
 
 
 - Create main program
