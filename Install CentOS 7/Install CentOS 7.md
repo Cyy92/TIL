@@ -32,7 +32,7 @@
 
 - `Install CentOS 7` 선택한다.
 
-![그림2](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(1).png?raw=true) {:.aligncenter}
+![그림2](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(1).png?raw=true) 
 
 
 
@@ -40,7 +40,7 @@
 
 - (선택)원하는 언어 선택 후 `Continue` 를 눌러서 설치를 진행한다. 
 
-![그림3](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(2).png?raw=true) {:.aligncenter}
+![그림3](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(2).png?raw=true) 
 
 
 
@@ -49,7 +49,7 @@
 - 사용할 S/W, 네트워크, 파티셔닝 등등의 설정을 거쳐 설치가 시작된다. 
 - 모든 설정이 끝나면, `Begin Installation`을 눌러 본격적으로 설치를 시작한다. 
 
-![그림4](https://github.com/Cyy92/user-images/blob/master/Install%20OS/new%20setup%20centos7%20(3).PNG?raw=true) {:.aligncenter}
+![그림4](https://github.com/Cyy92/user-images/blob/master/Install%20OS/new%20setup%20centos7%20(3).PNG?raw=true) 
 
 
 
@@ -57,7 +57,7 @@
 
 - 지역 및 날짜, 시간 설정 
 
-![그림6](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(5).PNG?raw=true) {:.aligncenter}
+![그림6](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(5).PNG?raw=true) 
 
 
 
@@ -67,7 +67,7 @@
 - (선택)편의성을 위해 윈도우 환경인 `GNOME Desktop` 을 선택한다.
 - (선택)추가로 설치할 플러그인 선택 후 `Done` 을 누른다. 
 
-![그림5](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(4).png?raw=true) {:.aligncenter}
+![그림5](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(4).png?raw=true) 
 
 
 
@@ -76,14 +76,14 @@
 - 효율적인 디스크 관리를 위한 디스크 파티셔닝
 - `I will configure partitioning` 선택 후 `Done`을 누른다. 
 
-![그림8](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(7).png?raw=true) {:.aligncenter}
+![그림8](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(7).png?raw=true) 
 
 
 
 - `Done`을 누르면 다음과 같은 화면이 표시되고, 임의로 파티션 별 용량을 설정할 수 있다. (서버 기준)
 - 파티션닝을 완료하면 마찬가지로 `Done`을 누른다. 
 
-![그림7](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(6).png?raw=true) {:.aligncenter}
+![그림7](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(6).png?raw=true) 
 
 | Partition | Description                                                  | Recommended size |
 | --------- | ------------------------------------------------------------ | ---------------- |
@@ -99,11 +99,11 @@
 
 - root 계정으로 로그인 할 경우의 비밀번호 & 사용자 계정 생성
 
-![그림8](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(8).png?raw=true) {:.aligncenter}
+![그림8](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(8).png?raw=true) 
 
 
 
-![그림9](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(10).png?raw=true) {:.aligncenter}
+![그림9](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(10).png?raw=true) 
 
 
 
@@ -111,7 +111,7 @@
 
 - `LICENSING` 선택해서 CentOS 7 라이센스 계약을 확인한 후, `I accept the license agreement.`를 누른다.
 
-![그림10](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(11).png?raw=true) {:.aligncenter}
+![그림10](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(11).png?raw=true) 
 
 #### 9. Start CentOS 7
 
@@ -120,7 +120,7 @@
 
 - 사용자 계정으로 로그인하고자 하는 경우, 생성한 사용자 계정을 선택 후 시작한다.
 
-![그림11](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(12).png?raw=true) {:.aligncenter}
+![그림11](https://github.com/Cyy92/user-images/blob/master/Install%20OS/setup%20centos7%20(12).png?raw=true) 
 
 
 
